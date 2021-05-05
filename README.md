@@ -8,6 +8,6 @@ The following packages should be present :
 - bs4 or beautifulsoup4
 - pandas
 - time
-#### Also ChromeDriver of suitable version should be downloaded . It is a zip file that contains chromedriver.exe . This file should be extracted and placed in the same directory as the script . The location of the executable file should be present in the System Path .
+#### Also ChromeDriver of suitable version should be downloaded . It is a zip file that contains chromedriver.exe . This file should be extracted and placed in the same directory as the script . The location of the executable file should be present in the System Path . In the code < webdriver.Chrome(executable_path='path') > path contains the location of the executable file. Please make that change while executing the script.
 ## Other Files
 The answers to question b and c are present in files answer_b and answer_c . Visualization.ipynb contains the plots corresponding to answer b .
